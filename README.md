@@ -1,6 +1,6 @@
 # Mechanical Component Failure Predictor
 
-A simple ML app to detect/predict failures from multivariate time-series (vibration, temperature, RPM, etc.) with **AI-powered failure analysis and solution recommendations**.
+A simple ML app to detect/predict failures from multivariate time-series (vibration, temperature, RPM, etc.) with failure analysis and solution recommendations**.
 
 ## Quickstart
 
@@ -31,7 +31,7 @@ streamlit run app/app.py
 - Unsupervised: IsolationForest anomaly score
 - **NEW**: AI-powered failure analysis with explanations and solutions
 
-## 🤖 GenAI Failure Analysis
+## Failure Analysis
 
 The app now includes an AI-powered failure analyzer that:
 
@@ -58,12 +58,11 @@ python examples/genai_demo.py
 streamlit run app/app.py
 ```
 
-### Free GenAI Setup:
+### GenAI Setup:
 The app uses **Ollama** for AI-powered analysis:
 - **Ollama**: Completely free, runs locally (recommended)
 - **Rule-based analysis**: Always works as fallback, no setup required
 
-See `FREE_GENAI_SETUP.md` for detailed setup instructions.
 
 ## Notes
 - Tune `--freq` and `--fs_hint` to match your data rate
